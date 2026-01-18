@@ -1,0 +1,41 @@
+FROM busybox:latest
+
+# Create directory structure
+RUN mkdir -p /tmp/activationBase
+
+# Copy activation data file
+COPY activation_data.csv /tmp/activationBase/
+
+# Copy Readme
+COPY Readme.md /tmp/
+
+# Set permissions
+RUN chmod -R 755 /tmp/activationBase
+
+# Documentation label
+LABEL maintainer="Huzaifa <your.email@example.com>"
+LABEL description="ActivationBase for Used Product Price Analyzer AI Model"
+LABEL license="AGPL-3.0"
+
+# Keep container running
+CMD ["tail", "-f", "/dev/null"]FROM busybox:latest
+
+# Create directory structure
+RUN mkdir -p /tmp/activationBase
+
+# Copy activation data file
+COPY activation_data.csv /tmp/activationBase/
+
+# Copy Readme
+COPY Readme.md /tmp/
+
+# Set permissions
+RUN chmod -R 755 /tmp/activationBase
+
+# Documentation label
+LABEL maintainer="Syed Huzaifa Ali Shah & Shakaib Aziz"
+LABEL description="ActivationBase for Used Product Price Analyzer AI Model"
+LABEL license="AGPL-3.0"
+
+# Keep container running
+CMD ["tail", "-f", "/dev/null"]
