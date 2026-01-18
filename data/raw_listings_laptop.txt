@@ -1,0 +1,85 @@
+EBAY PRODUCTS LISTING - 'laptop'
+================================================================================
+
+Total Products Extracted: 13
+Date: 2025-12-29 15:10:16
+--------------------------------------------------------------------------------
+
+Product #1
+Title: DELL Latitude Laptop Computer PC 14 Core i5 32GB 1TB SSD Windows 11 TOUCHSCREEN!
+Price: 259.99
+Condition: Not specified
+--------------------------------------------------
+
+Product #2
+Title: HP EliteBook Laptop Computer PC 14 Core i5 16GB RAM 512GB Windows 11 Pro OFFICE!
+Price: 259.88
+Condition: Not specified
+--------------------------------------------------
+
+Product #3
+Title: Dell Laptop Latitude E7470 14 FHD Intel i5-6300U 8GB RAM 128GB SSD M2 Win11 Pro
+Price: 104.99
+Condition: Not specified
+--------------------------------------------------
+
+Product #4
+Title: Dell Laptop Latitude 5420 Core i5-11th Touch 16GB Ram 512GB SSD Windows 11 Pro
+Price: 274.99
+Condition: Not specified
+--------------------------------------------------
+
+Product #5
+Title: HP ELITEBOOK 840 G5 14" Intel Core i5-8350U 1.70GHz 16GB RAM 256GB NVMe
+Price: 149.99
+Condition: Not specified
+--------------------------------------------------
+
+Product #6
+Title: HP EliteBook Laptop Computer PC 14 Core i7 16GB RAM 512GB Windows 11 Pro OFFICE!
+Price: 259.88
+Condition: Not specified
+--------------------------------------------------
+
+Product #7
+Title: Dell Latitude 7410 14" i5-10th Gen, 16GB, New 512GB NVME SSD, Webcam Windows 11P
+Price: 249.00
+Condition: Not specified
+--------------------------------------------------
+
+Product #8
+Title: Dell Latitude Laptop 11.6” HD 8GB RAM 128GB SSD Intel Pentium Silver Win 11 WiFi
+Price: 129.99
+Condition: Not specified
+--------------------------------------------------
+
+Product #9
+Title: HP EliteBook Laptop Computer PC 14 AMD RYZEN 5 PRO 32GB 1TB Windows 11 MEGA SALE
+Price: 289.99
+Condition: Not specified
+--------------------------------------------------
+
+Product #10
+Title: Dell 15.6" Light Gaming Laptop Intel Core i7 4.20 GHz 64GB RAM 4TB SSD Win11 Pro
+Price: 364.00
+Condition: Not specified
+--------------------------------------------------
+
+Product #11
+Title: FAST CHEAP TOP BRAND INTEL CORE i5 8TH GEN 16GB RAM 480GB SSD WINDOWS 11 LAPTOP
+Price: 236.18
+Condition: Not specified
+--------------------------------------------------
+
+Product #12
+Title: HP EliteBook Laptop Computer PC 14 Core i5 16GB RAM 512GB Windows 11 Pro OFFICE!
+Price: 259.88
+Condition: Not specified
+--------------------------------------------------
+
+Product #13
+Title: CHEAP FAST WINDOWS 11 LAPTOP INTEL CORE i5 32 RAM 1TB SSD WITH 1 YEAR WARRANTY
+Price: 188.94
+Condition: Not specified
+--------------------------------------------------
+

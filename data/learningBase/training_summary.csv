@@ -1,0 +1,2 @@
+epochs_trained,final_train_loss,final_val_loss,final_train_mae,final_val_mae,final_train_r2,final_val_r2,best_epoch,timestamp
+51,17.972192764282227,35.04201126098633,18.518798828125,35.51227569580078,-3.23838472366333,-15.814994812011719,31,2026-01-03 21:26:27

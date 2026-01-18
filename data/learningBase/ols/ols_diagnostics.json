@@ -1,0 +1,11 @@
+{
+  "durbin_watson": 0.32524783609777996,
+  "jarque_bera_stat": 0.43458109736878187,
+  "jarque_bera_pvalue": 0.8046961319336084,
+  "breusch_pagan_stat": null,
+  "breusch_pagan_pvalue": null,
+  "mean_residual": 15.085571428571424,
+  "std_residual": 7.963929716579138,
+  "skewness": 0.05009365461217333,
+  "kurtosis": -1.2165339440008276
+}

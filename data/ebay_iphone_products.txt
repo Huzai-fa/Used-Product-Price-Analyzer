@@ -1,0 +1,145 @@
+EBAY iPHONE PRODUCTS LISTING
+================================================================================
+
+Total Products Extracted: 23
+Date: 2025-12-28 22:45:02
+--------------------------------------------------------------------------------
+
+Product #1
+Title: Apple iPhone XR
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #2
+Title: Apple iPhone 16
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #3
+Title: Apple iPhone 5c
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #4
+Title: Apple iPhone 8
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #5
+Title: Apple iPhone 7
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #6
+Title: Apple iPhone 14
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #7
+Title: Apple iPhone 11
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #8
+Title: Apple iPhone 6
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #9
+Title: Apple iPhone XS
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #10
+Title: Apple iPhone 4s
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #11
+Title: Apple iPhone SE
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #12
+Title: Apple iPhone X
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #13
+Title: Apple iPhone 8 Plus
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #14
+Title: Apple iPhone 4
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #15
+Title: Apple iPhone SE (2022)
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #16
+Title: Apple iPhone 7 Plus
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #17
+Title: Apple iPhone SE (2020)
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #18
+Title: Apple iPhone 16 Pro
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #19
+Title: Apple iPhone 11 Pro
+Price: N/A
+Condition: Not specified
+--------------------------------------------------
+
+Product #20
+Title: NEW - Samsung Galaxy A50 SM-A505U 64GB Single Sim Unlocked Black Smartphone
+Price: 99.99
+Condition: New
+--------------------------------------------------
+
+Product #21
+Title: Google Pixel 7a | 7 | 7 Pro - 128GB 256GB 512GB - Unlocked - Smartphone
+Price: 223.20
+Condition: Not specified
+--------------------------------------------------
+
+Product #22
+Title: New Samsung Galaxy S22 Ultra 5G 128GB/ 256GB SM-S908U Factory Unlocked GSM CDMA
+Price: 357.64
+Condition: New
+--------------------------------------------------
+
+Product #23
+Title: Motorola RAZR V3 Retro Flip Phone - All Colours Unlocked - Pristine GRADE A+
+Price: 49.93
+Condition: Not specified
+--------------------------------------------------
+
