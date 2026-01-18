@@ -1,0 +1,16 @@
+# Use busybox as the base image
+FROM busybox:latest
+
+# Create the required directory structure
+RUN mkdir -p /tmp/activationBase
+
+# Copy your activation_data.csv from the parent/other directory
+# Using relative path to go up and into the data folder
+COPY activation_data.csv /tmp/activationBase/
+
+# Copy the Readme.md file from current directory
+COPY Readme.md /
+
+# Verify the file placement
+RUN echo "CSV file location:" && find /tmp -name "*.csv" -type f
+RUN ls -la /tmp/activationBase/

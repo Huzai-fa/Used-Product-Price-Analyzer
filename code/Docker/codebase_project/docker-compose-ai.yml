@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  knowledgebase:
+    image: huzaifaa786/knowledgebase_used_product_price_analyzer:latest
+    container_name: kb_ai
+    volumes:
+      - ai_system:/tmp
+    restart: unless-stopped
+    command: ["tail", "-f", "/dev/null"]
+    # Alternative: ["sleep", "infinity"]
+
+  activationbase:
+    image: huzaifaa786/activationbase_used_product_price_analyzer:latest
+    container_name: ab_ai
+    volumes:
+      - ai_system:/tmp
+    restart: unless-stopped
+    command: ["tail", "-f", "/dev/null"]
+    
+  codebase:
+    image: huzaifaa786/codebase_used_product_price_analyzer:latest
+    container_name: cb_ai
+    volumes:
+      - ai_system:/tmp
+    restart: unless-stopped
+    command: ["tail", "-f", "/dev/null"]
+    # If codebase should execute code, use:
+    # command: ["python", "your_ai_script.py"]
+
+volumes:
+  ai_system:
+    external: true
