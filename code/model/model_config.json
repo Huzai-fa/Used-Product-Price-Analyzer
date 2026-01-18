@@ -1,0 +1,21 @@
+{
+  "input_dim": 8,
+  "hidden_units": [
+    64,
+    32,
+    16
+  ],
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "epochs": 200,
+  "feature_columns": [
+    "condition_encoded",
+    "age",
+    "title_length",
+    "has_defects",
+    "shipping_cost",
+    "brand_encoded",
+    "category_encoded",
+    "product_year"
+  ]
+}
