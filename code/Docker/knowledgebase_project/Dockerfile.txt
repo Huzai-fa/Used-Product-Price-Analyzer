@@ -1,0 +1,18 @@
+# Use busybox as the base image
+FROM busybox:latest
+
+# Create the required directory structure
+RUN mkdir -p /tmp/knowledgeBase
+
+# Copy your model file to the specified path
+# Replace 'currentSolution.xml' with your actual model filename
+COPY currentAiSolution.json /tmp/knowledgeBase/
+COPY price_predictor.pkl /tmp/knowledgeBase/
+COPY currentOlsSolution.pkl /tmp/knowledgeBase/
+
+# Copy the Readme.md file to root
+COPY Readme.md /
+
+# Verify the file placement
+RUN echo "Model file location:" && find /tmp -name "*" -type f
+RUN echo "File contents in /tmp/knowledgeBase/:" && ls -la /tmp/knowledgeBase/

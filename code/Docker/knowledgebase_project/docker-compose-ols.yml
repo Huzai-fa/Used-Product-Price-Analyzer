@@ -1,0 +1,26 @@
+# docker-compose-ols.yml
+version: '3.8'
+
+services:
+  # Same 3 images, but for OLS
+  knowledgebase:
+    image: huzaifaa786/knowledgebase_used_product_price_analyzer:latest
+    container_name: kb_ols
+    volumes:
+      - ai_system:/tmp
+    restart: unless-stopped
+
+
+  codebase:
+    image: huzaifaa786/codebase_used_product_price_analyzer:latest
+    container_name: cb_ols
+    volumes:
+      - ai_system:/tmp
+    restart: unless-stopped
+    # This container should run your OLS application code
+    # If it doesn't run automatically, add:
+    # command: ["python", "apply_ols_model.py"]
+
+volumes:
+  ai_system:
+    external: true
