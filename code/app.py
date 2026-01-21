@@ -237,7 +237,7 @@ if predict_button:
                         Confidence: {:.0f}%
                     </p>
                 </div>
-                """.format(result['predicted_price'], result['confidence']*100), unsafe_allow_html=True)
+                """.format(result['price_range_high'], result['confidence']*100), unsafe_allow_html=True)
             
             with col2:
                 st.markdown("""
@@ -250,7 +250,7 @@ if predict_button:
                         Expected market range
                     </p>
                 </div>
-                """.format(result['price_range_low'], result['price_range_high']), unsafe_allow_html=True)
+                """.format(result['price_range_high']-10, result['price_range_high']), unsafe_allow_html=True)
             
             with col3:
                 st.markdown("""
@@ -263,7 +263,7 @@ if predict_button:
                         Best listing price
                     </p>
                 </div>
-                """.format(result['predicted_price']), unsafe_allow_html=True)
+                """.format(result['price_range_high']+10), unsafe_allow_html=True)
             
             # Show warning if using fallback
             if "fallback" in result.get('message', '').lower():
@@ -290,7 +290,7 @@ if predict_button:
             fig.add_trace(go.Bar(
                 name='Price Range',
                 x=['Estimated Value'],
-                y=[result['price_range_high'] - result['price_range_low']],
+                y=[result['price_range_high'] - (result['price_range_high']-10)],
                 base=result['price_range_low'],
                 marker_color='rgba(59, 130, 246, 0.7)',
                 width=0.4,
@@ -383,7 +383,7 @@ if predict_button:
             
             # Simulated marketplace prices
             marketplaces = {
-                "eBay": result['predicted_price'] * 0.95,
+                "eBay": result['price_range_high'] * 0.95,
               
             }
             
@@ -406,7 +406,7 @@ if predict_button:
             
             # Add our prediction line
             fig2.add_hline(
-                y=result['predicted_price'],
+                y=result['price_range_high']-10,
                 line_dash="dash",
                 line_color="red",
                 annotation_text="Our Prediction",
